@@ -1,32 +1,33 @@
 class Converter():
 
-	def __init__(self):
-		pass
+    def __init__(self):
+        pass
 
-	def convert(self, base_ten_number):
-		pass
+    def convert(self, base_ten_number):
+        base_prime_text = ''
+
 
 class Primes():
 
-	def __init__(self):
-		self.primes = [2, 3]
+    def __init__(self):
+        self.prime_list = [2, 3]
 
-	def generate_prime(self):
-		number = self.primes[-1] + 2
-		while True:
-			if self.is_prime(number):
-				self.primes.append(number)
-				return number
-			else:
-				number += 2
-			
-	def is_prime(self, number):
-		for divisor in self.primes:
-			if divisor**2 > number:
-				return True
-			elif number % divisor == 0:
-				return False
+    def generate_prime(self):
+        number = self.prime_list[-1] + 2
+        while True:
+            if self.is_prime(number):
+                self.prime_list.append(number)
+                return number
+            else:
+                number += 2
+
+    def is_prime(self, number):
+        for divisor in self.prime_list:
+            if divisor**2 > number:
+                return True
+            elif number % divisor == 0:
+                return False
 
 if __name__ == '__main__':
-	converter = Converter()
-	print (converter.convert(7))
+    converter = Converter()
+    print(converter.convert(7))
