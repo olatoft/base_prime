@@ -1,5 +1,7 @@
 # Base Prime
 
+[![Build Status](https://travis-ci.org/olatoft/base_prime.svg?branch=master)](https://travis-ci.org/olatoft/base_prime)
+
 Number system using prime numbers as its base.
 
 ## Explanation
