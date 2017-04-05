@@ -32,5 +32,6 @@ class TestPrimes(unittest.TestCase):
         self.assertEqual(self.primes.generate_prime(), 7)
         self.assertNotEqual(self.primes.generate_prime(), 9)
 
+
 if __name__ == '__main__':
     unittest.main()
