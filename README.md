@@ -11,7 +11,7 @@ For example, the number 42 can be broken down to 2 * 3 * 7, the first, the secon
 This has the potential to make multiplication and divison really fast. For instance, 6 * 7 could be broken down to 11 OR 1000 = 1011 = 42
 
 ## Dependencies
-	* Python 3
+  * Python 3
 
 ## Installation
 ```
